@@ -20,7 +20,7 @@ body{
   font-size: 2rem;
 }
 .contenedor {
-  width: 120rem;
+  max-width: 120rem;
   margin: 0 auto;
 }
 .nav-bg{
@@ -28,6 +28,7 @@ body{
 }
 .navegacion-principal {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 .navegacion-principal a {
@@ -40,4 +41,14 @@ padding: 1rem;
 .navegacion-principal a:hover{
   background-color: var(--primario);
   color: var(--oscuro);
+}
+ @media (min-width: 480px){
+  h1{
+
+  }
+}
+@media (min-width: 768px){
+  h1{
+    
+  }
 }
